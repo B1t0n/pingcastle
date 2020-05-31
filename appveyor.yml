@@ -11,4 +11,4 @@ artifacts:
   - path: bin\Release\PingCastle.exe
 
 test_script:
-- cmd: .\PingCastle.exe
+- cmd: bin\Release\PingCastle.exe
