@@ -7,3 +7,7 @@ build:
   
 platform:
   - Any CPU
+
+artifacts:
+  - path: bin\Release\PingCastle.exe
+  - name: PingCastle
