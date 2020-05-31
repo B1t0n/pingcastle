@@ -1,0 +1,9 @@
+version: '1.0.{build}'
+configuration:
+  - Release
+build:
+  project: PingCastle.sln	
+  verbosity: minimal
+  
+platform:
+  - Any CPU
