@@ -13,5 +13,5 @@ artifacts:
 
 on_success:
   - git add --all
-  - git commit "added binary"
+  - git commit -m "added binary"
   - git push
