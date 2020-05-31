@@ -3,10 +3,12 @@ configuration:
   - Release
 build:
   project: PingCastle.sln	
-  verbosity: minimal
   
 platform:
   - Any CPU
 
 artifacts:
   - path: bin\Release\PingCastle.exe
+
+test_script:
+- cmd: .\PingCastle.exe
