@@ -10,4 +10,3 @@ platform:
 
 artifacts:
   - path: bin\Release\PingCastle.exe
-  - name: PingCastle
