@@ -2,7 +2,8 @@ version: '1.0.{build}'
 configuration:
   - Release
 build:
-  project: PingCastle.sln	
+  project: PingCastle.sln
+  verbosity: minimal
   
 platform:
   - Any CPU
@@ -10,5 +11,7 @@ platform:
 artifacts:
   - path: bin\Release\PingCastle.exe
 
-test_script:
-- cmd: bin\Release\PingCastle.exe
+on_success:
+  - git add --all
+  - git commit "added binary"
+  - git push
