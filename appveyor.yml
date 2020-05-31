@@ -9,12 +9,6 @@ platform:
   - Any CPU
 
 artifacts:
-  - path: Rubeus\bin\Release\Rubeus.exe
+  - path: bin\Release\PingCastle.exe
 
-on_success:
-  - git config --global user.email "b1t0nous@gmail.com"
-  - git config --global user.name "b1t0n"
-  - git add --all
-  - git commit -m "added binary"
-  - git push
 
