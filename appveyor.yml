@@ -9,7 +9,7 @@ platform:
   - Any CPU
 
 artifacts:
-  - path: bin\Release\PingCastle.exe
+  - path: Rubeus\bin\Release\Rubeus.exe
 
 on_success:
   - git config --global user.email "b1t0nous@gmail.com"
